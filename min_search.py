@@ -7,7 +7,7 @@ class TreeNode:
 
 def find_min_value(node):
     if node is None:
-        return None  # Дерево порожнє
+        return None
     current = node
     while current.left is not None:
         current = current.left

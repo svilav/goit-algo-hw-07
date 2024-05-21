@@ -8,7 +8,7 @@ class TreeNode:
 
 def sum_tree_values(node):
     if node is None:
-        return 0  # Якщо вузол порожній, повертаємо 0
+        return 0
     left_sum = sum_tree_values(node.left)
     right_sum = sum_tree_values(node.right)
     return node.value + left_sum + right_sum
